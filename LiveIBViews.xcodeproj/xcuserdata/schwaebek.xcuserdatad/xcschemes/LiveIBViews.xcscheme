@@ -34,6 +34,20 @@
                ReferencedContainer = "container:LiveIBViews.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "27AC77C519D99F1E001B8CC0"
+               BuildableName = "LiveIBViewsKitTests.xctest"
+               BlueprintName = "LiveIBViewsKitTests"
+               ReferencedContainer = "container:LiveIBViews.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "2762A7D119D5AF0900679CBA"
                BuildableName = "LiveIBViewsTests.xctest"
                BlueprintName = "LiveIBViewsTests"
+               ReferencedContainer = "container:LiveIBViews.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "27AC77C519D99F1E001B8CC0"
+               BuildableName = "LiveIBViewsKitTests.xctest"
+               BlueprintName = "LiveIBViewsKitTests"
                ReferencedContainer = "container:LiveIBViews.xcodeproj">
             </BuildableReference>
          </TestableReference>

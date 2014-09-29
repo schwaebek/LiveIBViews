@@ -14,6 +14,11 @@
 		2762A7D919D5AF0900679CBA /* LiveIBViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762A7D819D5AF0900679CBA /* LiveIBViewsTests.swift */; };
 		2762A7E319D5B40500679CBA /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762A7E219D5B40500679CBA /* TableVC.swift */; };
 		2762A7E519D5B67600679CBA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762A7E419D5B67600679CBA /* TableViewCell.swift */; };
+		27AC77C119D99F1E001B8CC0 /* LiveIBViewsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 27AC77C019D99F1E001B8CC0 /* LiveIBViewsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27AC77CD19D99F1E001B8CC0 /* LiveIBViewsKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC77CC19D99F1E001B8CC0 /* LiveIBViewsKitTests.swift */; };
+		27AC77D019D99F1E001B8CC0 /* LiveIBViewsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AC77BC19D99F1E001B8CC0 /* LiveIBViewsKit.framework */; };
+		27AC77D119D99F1E001B8CC0 /* LiveIBViewsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27AC77BC19D99F1E001B8CC0 /* LiveIBViewsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27AC77DC19D99FB9001B8CC0 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC77DB19D99FB9001B8CC0 /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +29,42 @@
 			remoteGlobalIDString = 2762A7BC19D5AF0900679CBA;
 			remoteInfo = LiveIBViews;
 		};
+		27AC77C719D99F1E001B8CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2762A7B519D5AF0900679CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2762A7BC19D5AF0900679CBA;
+			remoteInfo = LiveIBViews;
+		};
+		27AC77CE19D99F1E001B8CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2762A7B519D5AF0900679CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AC77BB19D99F1E001B8CC0;
+			remoteInfo = LiveIBViewsKit;
+		};
+		27AC77D219D99F1E001B8CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2762A7B519D5AF0900679CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AC77BB19D99F1E001B8CC0;
+			remoteInfo = LiveIBViewsKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27AC77D919D99F1E001B8CC0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27AC77D119D99F1E001B8CC0 /* LiveIBViewsKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2762A7BD19D5AF0900679CBA /* LiveIBViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveIBViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +78,13 @@
 		2762A7D819D5AF0900679CBA /* LiveIBViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveIBViewsTests.swift; sourceTree = "<group>"; };
 		2762A7E219D5B40500679CBA /* TableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
 		2762A7E419D5B67600679CBA /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		27AC77BC19D99F1E001B8CC0 /* LiveIBViewsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiveIBViewsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AC77BF19D99F1E001B8CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27AC77C019D99F1E001B8CC0 /* LiveIBViewsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveIBViewsKit.h; sourceTree = "<group>"; };
+		27AC77C619D99F1E001B8CC0 /* LiveIBViewsKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveIBViewsKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AC77CB19D99F1E001B8CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27AC77CC19D99F1E001B8CC0 /* LiveIBViewsKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveIBViewsKitTests.swift; sourceTree = "<group>"; };
+		27AC77DB19D99FB9001B8CC0 /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +92,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AC77D019D99F1E001B8CC0 /* LiveIBViewsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2762A7CF19D5AF0900679CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AC77B819D99F1E001B8CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AC77C319D99F1E001B8CC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,6 +125,8 @@
 			children = (
 				2762A7BF19D5AF0900679CBA /* LiveIBViews */,
 				2762A7D519D5AF0900679CBA /* LiveIBViewsTests */,
+				27AC77BD19D99F1E001B8CC0 /* LiveIBViewsKit */,
+				27AC77C919D99F1E001B8CC0 /* LiveIBViewsKitTests */,
 				2762A7BE19D5AF0900679CBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +136,8 @@
 			children = (
 				2762A7BD19D5AF0900679CBA /* LiveIBViews.app */,
 				2762A7D219D5AF0900679CBA /* LiveIBViewsTests.xctest */,
+				27AC77BC19D99F1E001B8CC0 /* LiveIBViewsKit.framework */,
+				27AC77C619D99F1E001B8CC0 /* LiveIBViewsKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,7 +181,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		27AC77BD19D99F1E001B8CC0 /* LiveIBViewsKit */ = {
+			isa = PBXGroup;
+			children = (
+				27AC77C019D99F1E001B8CC0 /* LiveIBViewsKit.h */,
+				27AC77BE19D99F1E001B8CC0 /* Supporting Files */,
+				27AC77DB19D99FB9001B8CC0 /* RatingView.swift */,
+			);
+			path = LiveIBViewsKit;
+			sourceTree = "<group>";
+		};
+		27AC77BE19D99F1E001B8CC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27AC77BF19D99F1E001B8CC0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27AC77C919D99F1E001B8CC0 /* LiveIBViewsKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				27AC77CC19D99F1E001B8CC0 /* LiveIBViewsKitTests.swift */,
+				27AC77CA19D99F1E001B8CC0 /* Supporting Files */,
+			);
+			path = LiveIBViewsKitTests;
+			sourceTree = "<group>";
+		};
+		27AC77CA19D99F1E001B8CC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27AC77CB19D99F1E001B8CC0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27AC77B919D99F1E001B8CC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AC77C119D99F1E001B8CC0 /* LiveIBViewsKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2762A7BC19D5AF0900679CBA /* LiveIBViews */ = {
@@ -125,10 +237,13 @@
 				2762A7B919D5AF0900679CBA /* Sources */,
 				2762A7BA19D5AF0900679CBA /* Frameworks */,
 				2762A7BB19D5AF0900679CBA /* Resources */,
+				27AC77D919D99F1E001B8CC0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				27AC77CF19D99F1E001B8CC0 /* PBXTargetDependency */,
+				27AC77D319D99F1E001B8CC0 /* PBXTargetDependency */,
 			);
 			name = LiveIBViews;
 			productName = LiveIBViews;
@@ -153,6 +268,42 @@
 			productReference = 2762A7D219D5AF0900679CBA /* LiveIBViewsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		27AC77BB19D99F1E001B8CC0 /* LiveIBViewsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AC77D819D99F1E001B8CC0 /* Build configuration list for PBXNativeTarget "LiveIBViewsKit" */;
+			buildPhases = (
+				27AC77B719D99F1E001B8CC0 /* Sources */,
+				27AC77B819D99F1E001B8CC0 /* Frameworks */,
+				27AC77B919D99F1E001B8CC0 /* Headers */,
+				27AC77BA19D99F1E001B8CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveIBViewsKit;
+			productName = LiveIBViewsKit;
+			productReference = 27AC77BC19D99F1E001B8CC0 /* LiveIBViewsKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27AC77C519D99F1E001B8CC0 /* LiveIBViewsKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AC77DA19D99F1E001B8CC0 /* Build configuration list for PBXNativeTarget "LiveIBViewsKitTests" */;
+			buildPhases = (
+				27AC77C219D99F1E001B8CC0 /* Sources */,
+				27AC77C319D99F1E001B8CC0 /* Frameworks */,
+				27AC77C419D99F1E001B8CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27AC77C819D99F1E001B8CC0 /* PBXTargetDependency */,
+			);
+			name = LiveIBViewsKitTests;
+			productName = LiveIBViewsKitTests;
+			productReference = 27AC77C619D99F1E001B8CC0 /* LiveIBViewsKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -166,6 +317,13 @@
 						CreatedOnToolsVersion = 6.0;
 					};
 					2762A7D119D5AF0900679CBA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 2762A7BC19D5AF0900679CBA;
+					};
+					27AC77BB19D99F1E001B8CC0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					27AC77C519D99F1E001B8CC0 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 2762A7BC19D5AF0900679CBA;
 					};
@@ -186,6 +344,8 @@
 			targets = (
 				2762A7BC19D5AF0900679CBA /* LiveIBViews */,
 				2762A7D119D5AF0900679CBA /* LiveIBViewsTests */,
+				27AC77BB19D99F1E001B8CC0 /* LiveIBViewsKit */,
+				27AC77C519D99F1E001B8CC0 /* LiveIBViewsKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +362,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2762A7D019D5AF0900679CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AC77BA19D99F1E001B8CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AC77C419D99F1E001B8CC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,6 +403,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27AC77B719D99F1E001B8CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AC77DC19D99FB9001B8CC0 /* RatingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AC77C219D99F1E001B8CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AC77CD19D99F1E001B8CC0 /* LiveIBViewsKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +426,21 @@
 			isa = PBXTargetDependency;
 			target = 2762A7BC19D5AF0900679CBA /* LiveIBViews */;
 			targetProxy = 2762A7D319D5AF0900679CBA /* PBXContainerItemProxy */;
+		};
+		27AC77C819D99F1E001B8CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2762A7BC19D5AF0900679CBA /* LiveIBViews */;
+			targetProxy = 27AC77C719D99F1E001B8CC0 /* PBXContainerItemProxy */;
+		};
+		27AC77CF19D99F1E001B8CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27AC77BB19D99F1E001B8CC0 /* LiveIBViewsKit */;
+			targetProxy = 27AC77CE19D99F1E001B8CC0 /* PBXContainerItemProxy */;
+		};
+		27AC77D319D99F1E001B8CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27AC77BB19D99F1E001B8CC0 /* LiveIBViewsKit */;
+			targetProxy = 27AC77D219D99F1E001B8CC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -392,6 +597,81 @@
 			};
 			name = Release;
 		};
+		27AC77D419D99F1E001B8CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiveIBViewsKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27AC77D519D99F1E001B8CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LiveIBViewsKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27AC77D619D99F1E001B8CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiveIBViewsKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveIBViews.app/LiveIBViews";
+			};
+			name = Debug;
+		};
+		27AC77D719D99F1E001B8CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiveIBViewsKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveIBViews.app/LiveIBViews";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,12 +691,30 @@
 				2762A7DE19D5AF0900679CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2762A7DF19D5AF0900679CBA /* Build configuration list for PBXNativeTarget "LiveIBViewsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2762A7E019D5AF0900679CBA /* Debug */,
 				2762A7E119D5AF0900679CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27AC77D819D99F1E001B8CC0 /* Build configuration list for PBXNativeTarget "LiveIBViewsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AC77D419D99F1E001B8CC0 /* Debug */,
+				27AC77D519D99F1E001B8CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27AC77DA19D99F1E001B8CC0 /* Build configuration list for PBXNativeTarget "LiveIBViewsKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AC77D619D99F1E001B8CC0 /* Debug */,
+				27AC77D719D99F1E001B8CC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

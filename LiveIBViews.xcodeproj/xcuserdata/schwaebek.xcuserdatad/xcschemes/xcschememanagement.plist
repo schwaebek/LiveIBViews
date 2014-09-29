@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>LiveIBViewsKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>2762A7D119D5AF0900679CBA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27AC77BB19D99F1E001B8CC0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27AC77C519D99F1E001B8CC0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
